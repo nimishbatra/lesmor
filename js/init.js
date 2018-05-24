@@ -123,7 +123,7 @@ function pogody(){
 	
 	/*Typed js*/
 	$("#typed").typed({
-		strings: [" Back Soon", " Stay Tuned", " Almost There"],
+		strings: [" Coming Soon", " Stay Tuned", " Almost There"],
 		typeSpeed: 100,
 		backDelay: 900,
 		loop: true,
@@ -134,7 +134,7 @@ function pogody(){
 	});
 	/*Typed js for title tag*/
 	$("#title").typed({
-		strings: ["Hello..!", "Welcome..!", "Enjoy..!"],
+		strings: ["Lesmor Design"],
 		typeSpeed: 300,
 		backDelay: 900,
 		loop: true,
@@ -391,8 +391,8 @@ function newGradient() {
 		g: Math.floor(Math.random()*255),
 		b: Math.floor(Math.random()*255)
 	};
-	c1.rgb = 'rgb('+c1.r+','+c1.g+','+c1.b+')';
-	c2.rgb = 'rgb('+c2.r+','+c2.g+','+c2.b+')';
+	c1.rgb = 'rgb('+c1.r+','+c1.g+','+c1.b+', 0.5)';
+	c2.rgb = 'rgb('+c2.r+','+c2.g+','+c2.b+', 0.5)';
 	return 'radial-gradient(at top left, '+c1.rgb+', '+c2.rgb+')';
 }
 
